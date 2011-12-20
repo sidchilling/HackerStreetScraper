@@ -16,7 +16,7 @@ public class TestClass {
 			stories.get(storiesIndex).printDetails();
 		}
 		System.out.println("\n\n");
-		stories = hackerNewsApi.getTopStories();
+		stories = hackerNewsApi.getBestStories();
 		for (int storiesIndex = 0; storiesIndex < stories.size(); storiesIndex++) {
 			stories.get(storiesIndex).printDetails();
 		}
